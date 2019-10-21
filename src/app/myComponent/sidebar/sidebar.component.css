@@ -1,0 +1,53 @@
+.container {
+  position: absolute;
+  top: 120%;
+  left: 70%;
+  display: grid;
+  grid-auto-rows: auto;
+  width: 20vw;
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-flow: column;
+  box-shadow: 10px 10px 5px -6px rgba(211, 205, 205, 0.75);
+  transition: 0.5s;
+  text-align: center;
+  padding: 10px;
+  max-height: auto;
+  align-items: center;
+}
+
+.card:hover {
+  box-shadow: -15px -13px 7px -11px rgba(211, 205, 205, 0.75);
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.logo p {
+  background: black;
+  border: solid black;
+  border-radius: 50px;
+  color: white;
+  padding: 20px;
+  width: 55%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.buttom a:link, a:visited {
+  background-color: cadetblue;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(47, 71, 71);
+}

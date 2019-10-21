@@ -1,0 +1,40 @@
+body {
+    width: 97vw;
+    height: 60vh;
+    color: white;
+    font-family: 'roboto',sans-serif;
+    background: transparent;
+}
+
+.logo {
+    display: grid;
+    align-content: left;
+    margin: 7px; 
+}
+
+.logo img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li img{
+      width: 80%;
+      height: 90%; 
+      opacity: 20;     
+  }
+
+  p{
+    opacity: 0.4;
+  }
+  
